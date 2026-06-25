@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Harshit Bishnoi - Full Stack Developer Portfolio. Pixel-perfect 8-bit retro theme website.">
+  <title>Harshit Bishnoi | Full Stack Developer</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;700&family=VT323&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-theme">
+  
+  <!-- Full Window Wrapper -->
+  <div class="site-container">
+    
+    <!-- Header / Navigation -->
+    <header class="pixel-header">
+      <div class="header-container">
+        <div class="logo-container">
+          <a href="#home" class="logo">HB</a>
+        </div>
+        <nav class="nav-container">
+          <ul class="nav-links">
+            <li><a href="#home" class="nav-link active">HOME</a></li>
+            <li><a href="#about" class="nav-link">ABOUT</a></li>
+            <li><a href="#skills" class="nav-link">SKILLS</a></li>
+            <li><a href="#projects" class="nav-link">PROJECTS</a></li>
+            <li><a href="#experience" class="nav-link">EXPERIENCE</a></li>
+            <li><a href="#contact" class="nav-link">CONTACT</a></li>
+          </ul>
+        </nav>
+        <div class="toggle-container">
+          <button id="themeToggle" class="theme-toggle" aria-label="Toggle Theme">
+            <!-- Solar Sun Icon in Pixel style -->
+            <svg class="sun-icon" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-linejoin="miter">
+              <rect x="10" y="2" width="4" height="2" fill="currentColor"/>
+              <rect x="10" y="20" width="4" height="2" fill="currentColor"/>
+              <rect x="2" y="10" width="2" height="4" fill="currentColor"/>
+              <rect x="20" y="10" width="2" height="4" fill="currentColor"/>
+              <rect x="5" y="5" width="2" height="2" fill="currentColor"/>
+              <rect x="17" y="17" width="2" height="2" fill="currentColor"/>
+              <rect x="17" y="5" width="2" height="2" fill="currentColor"/>
+              <rect x="5" y="17" width="2" height="2" fill="currentColor"/>
+              <rect x="8" y="8" width="8" height="8" fill="currentColor"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+      
+      <!-- Hero Section -->
+      <section id="home" class="hero-section">
+        <div class="hero-content container">
+          
+          <!-- Left: Hero Text -->
+          <div class="hero-text">
+            <div class="hello-world">
+              HELLO, WORLD! <span class="wave-emoji">👋</span>
+            </div>
+            <h1 class="hero-title">
+              I'M HARSHIT<br>
+              <span class="yellow-text">BISHNOI</span>
+            </h1>
+            <p class="hero-subtitle">❤️ I BUILD COOL STUFF FOR THE WEB.</p>
+            <div class="hero-tag">
+              <span class="prompt-char">&gt;</span> FULL STACK DEVELOPER
+            </div>
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">VIEW MY WORK <span class="arrow">→</span></a>
+              <a href="#contact" class="btn btn-secondary">CONTACT ME <span class="envelope-icon">✉</span></a>
+            </div>
+          </div>
+          
+          <!-- Right: Interactive Graphic -->
+          <div class="hero-graphic">
+            <!-- Terminal Status Card (CODE / EAT / SLEEP / REPEAT) -->
+            <div class="status-card">
+              <div class="status-line"><span class="prompt-char">&gt;</span> CODE</div>
+              <div class="status-line"><span class="prompt-char">&gt;</span> EAT</div>
+              <div class="status-line"><span class="prompt-char">&gt;</span> SLEEP</div>
+              <div class="status-line"><span class="prompt-char">&gt;</span> REPEAT</div>
+            </div>
+            <!-- Illustration Image Container -->
+            <div class="illustration-container">
+              <img src="assets/character_ledge.jpg" alt="Harshit coding on ledge" class="hero-character-img">
+            </div>
+          </div>
+          
+        </div>
+      </section>
+
+      <!-- About & Skills Double Card Row -->
+      <section class="info-section">
+        <div class="info-row container">
+          
+          <!-- About Me Section Card -->
+          <div id="about" class="info-card about-card">
+            <h2 class="card-title">
+              <!-- User Icon in Pixel Style -->
+              <svg class="title-icon icon-purple" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                <rect x="8" y="2" width="8" height="4"/>
+                <rect x="6" y="6" width="12" height="6"/>
+                <rect x="2" y="14" width="20" height="8"/>
+              </svg>
+              ABOUT ME
+            </h2>
+            <div class="about-content">
+              <div class="avatar-container">
+                <img src="assets/avatar.jpg" alt="Harshit Bishnoi Avatar" class="avatar-img">
+              </div>
+              <div class="about-text">
+                <p>I'm Harshit Bishnoi, a passionate Full Stack Developer who loves turning ideas into pixel-perfect web experiences.</p>
+                <p>I enjoy solving problems, learning new technologies and building projects that make an impact.</p>
+                <div class="about-callout">
+                  <span class="prompt-char">&gt;</span> LET'S BUILD SOMETHING AWESOME TOGETHER!
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skills Section Card -->
+          <div id="skills" class="info-card skills-card">
+            <h2 class="card-title">
+              <!-- Star Icon in Pixel Style -->
+              <svg class="title-icon icon-yellow" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                <rect x="11" y="2" width="2" height="2"/>
+                <rect x="10" y="4" width="4" height="2"/>
+                <rect x="9" y="6" width="6" height="2"/>
+                <rect x="2" y="8" width="20" height="2"/>
+                <rect x="4" y="10" width="16" height="2"/>
+                <rect x="6" y="12" width="12" height="2"/>
+                <rect x="5" y="14" width="14" height="2"/>
+                <rect x="4" y="16" width="4" height="2"/>
+                <rect x="16" y="16" width="4" height="2"/>
+                <rect x="3" y="18" width="2" height="2"/>
+                <rect x="19" y="18" width="2" height="2"/>
+              </svg>
+              SKILLS
+            </h2>
+            <div class="skills-grid">
+              
+              <!-- HTML -->
+              <div class="skill-item">
+                <div class="skill-icon-wrapper">
+                  <svg class="skill-logo" viewBox="0 0 24 24" width="36" height="36">
+                    <path fill="#e34f26" d="M2 2h20l-1.8 17.8L12 22l-8.2-2.2L2 2z"/>
+                    <path fill="#ef652a" d="M12 3.8v16.3l6.5-1.7 1.4-14.6H12z"/>
+                    <path fill="#ffffff" d="M12 8.7H8.7l.2 2.5H12v2.5H9.1l.2 2.3 2.7.7v-2.7H12zm0-5v2.5h5.5l-.2 2.5H12v2.5h3l-.3 3.3-2.7.7v2.7l5.4-1.5.8-9.2H12z" opacity="0.9"/>
+                  </svg>
+                </div>
+                <span class="skill-name">HTML</span>
+              </div>
+
+              <!-- CSS -->
+              <div class="skill-item">
+                <div class="skill-icon-wrapper">
+                  <svg class="skill-logo" viewBox="0 0 24 24" width="36" height="36">
+                    <path fill="#0277bd" d="M2 2h20l-1.8 17.8L12 22l-8.2-2.2L2 2z"/>
+                    <path fill="#039be5" d="M12 3.8v16.3l6.5-1.7 1.4-14.6H12z"/>
+                    <path fill="#ffffff" d="M12 8.7H8.7l.2 2.5H12v2.5H9.1l.2 2.3 2.7.7v-2.7H12zm0-5v2.5h5.5l-.2 2.5H12v2.5h3l-.3 3.3-2.7.7v2.7l5.4-1.5.8-9.2H12z" opacity="0.9"/>
+                  </svg>
+                </div>
+                <span class="skill-name">CSS</span>
+              </div>
+
+              <!-- JAVASCRIPT -->
+              <div class="skill-item">
+                <div class="skill-icon-wrapper">
+                  <div class="js-logo-box">JS</div>
+                </div>
+                <span class="skill-name">JAVASCRIPT</span>
+              </div>
+
+              <!-- REACT -->
+              <div class="skill-item">
+                <div class="skill-icon-wrapper">
+                  <svg class="skill-logo react-spin" viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#00d8ff" stroke-width="1.5">
+                    <ellipse cx="12" cy="12" rx="10" ry="3.5" transform="rotate(0 12 12)"/>
+                    <ellipse cx="12" cy="12" rx="10" ry="3.5" transform="rotate(60 12 12)"/>
+                    <ellipse cx="12" cy="12" rx="10" ry="3.5" transform="rotate(120 12 12)"/>
+                    <circle cx="12" cy="12" r="1.5" fill="#00d8ff"/>
+                  </svg>
+                </div>
+                <span class="skill-name">REACT</span>
+              </div>
+
+              <!-- NODE.JS -->
+              <div class="skill-item">
+                <div class="skill-icon-wrapper">
+                  <svg class="skill-logo" viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#43a047" stroke-width="2">
+                    <path d="M12 2L4 7v10l8 5 8-5V7l-8-5z" fill="#1b5e20" fill-opacity="0.2"/>
+                    <path d="M12 6l5 3v6l-5 3-5-3V9l5-3z" fill="#43a047"/>
+                  </svg>
+                </div>
+                <span class="skill-name">NODE.JS</span>
+              </div>
+
+              <!-- EXPRESS -->
+              <div class="skill-item">
+                <div class="skill-icon-wrapper">
+                  <div class="express-logo-text">ex</div>
+                </div>
+                <span class="skill-name">EXPRESS</span>
+              </div>
+
+              <!-- MONGODB -->
+              <div class="skill-item">
+                <div class="skill-icon-wrapper">
+                  <svg class="skill-logo" viewBox="0 0 24 24" width="36" height="36" fill="currentColor">
+                    <path fill="#4caf50" d="M12 2C12 2 9 6 9 11c0 3.5 2 5.5 3 7 .7-.5 1.5-1 2-2 1-2 1-5 1-5S12 2 12 2z"/>
+                    <path fill="#388e3c" d="M12 2c0 0-3 4-3 9 0 3.5 2 5.5 3 7V2z"/>
+                    <path fill="#81c784" d="M12 18v4c0 0 3.5-2.5 3.5-4H12z"/>
+                    <path fill="#388e3c" d="M12 18v4s-3.5-2.5-3.5-4H12z"/>
+                  </svg>
+                </div>
+                <span class="skill-name">MONGODB</span>
+              </div>
+
+              <!-- GIT -->
+              <div class="skill-item">
+                <div class="skill-icon-wrapper">
+                  <svg class="skill-logo" viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#f4511e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="8" y="8" width="8" height="8" rx="1" transform="rotate(45 12 12)" fill="#f4511e" fill-opacity="0.1"/>
+                    <circle cx="12" cy="8" r="1.5" fill="#f4511e"/>
+                    <circle cx="9" cy="13" r="1.5" fill="#f4511e"/>
+                    <circle cx="15" cy="13" r="1.5" fill="#f4511e"/>
+                    <path d="M12 9.5v3.5M12 13h1.5"/>
+                  </svg>
+                </div>
+                <span class="skill-name">GIT</span>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="projects-section">
+        <div class="projects-container container">
+          <div class="projects-header">
+            <h2 class="section-title">
+              <!-- Game Controller Icon in Pixel Style -->
+              <svg class="title-icon icon-purple" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                <rect x="2" y="6" width="20" height="12"/>
+                <rect x="4" y="18" width="4" height="2"/>
+                <rect x="16" y="18" width="4" height="2"/>
+                <rect x="5" y="11" width="3" height="2" fill="#06070b"/>
+                <rect x="6" y="10" width="1" height="4" fill="#06070b"/>
+                <circle cx="15" cy="12" r="1" fill="#06070b"/>
+                <circle cx="18" cy="12" r="1" fill="#06070b"/>
+              </svg>
+              PROJECTS
+            </h2>
+            <a href="#" class="view-all-link">VIEW ALL <span class="arrow">→</span></a>
+          </div>
+
+          <div class="projects-grid">
+            
+            <!-- Project 1: Pixel Blog -->
+            <article class="project-card">
+              <div class="project-thumb-container">
+                <img src="assets/thumb_blog.jpg" alt="Pixel Blog Screenshot" class="project-thumb">
+              </div>
+              <div class="project-info">
+                <h3 class="project-title">PIXEL BLOG</h3>
+                <p class="project-desc">A blog platform for writers and thinkers.</p>
+                <a href="#" class="project-link">VIEW PROJECT <span class="arrow">→</span></a>
+              </div>
+            </article>
+
+            <!-- Project 2: 8Bit Store -->
+            <article class="project-card">
+              <div class="project-thumb-container">
+                <img src="assets/thumb_store.jpg" alt="8Bit Store Screenshot" class="project-thumb">
+              </div>
+              <div class="project-info">
+                <h3 class="project-title">8BIT STORE</h3>
+                <p class="project-desc">An e-commerce website with pixel perfection.</p>
+                <a href="#" class="project-link">VIEW PROJECT <span class="arrow">→</span></a>
+              </div>
+            </article>
+
+            <!-- Project 3: Weather App -->
+            <article class="project-card">
+              <div class="project-thumb-container">
+                <img src="assets/thumb_weather.jpg" alt="Weather App Screenshot" class="project-thumb">
+              </div>
+              <div class="project-info">
+                <h3 class="project-title">WEATHER APP</h3>
+                <p class="project-desc">Get real-time weather updates in style.</p>
+                <a href="#" class="project-link">VIEW PROJECT <span class="arrow">→</span></a>
+              </div>
+            </article>
+
+            <!-- Project 4: Todo List -->
+            <article class="project-card">
+              <div class="project-thumb-container">
+                <img src="assets/thumb_todo.jpg" alt="Todo List Screenshot" class="project-thumb">
+              </div>
+              <div class="project-info">
+                <h3 class="project-title">TODO LIST</h3>
+                <p class="project-desc">A simple and beautiful todo app.</p>
+                <a href="#" class="project-link">VIEW PROJECT <span class="arrow">→</span></a>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="pixel-footer">
+      <div class="footer-container container">
+        <p>© 2026 HARSHIT BISHNOI. ALL RIGHTS RESERVED.</p>
+        <p class="footer-sub">DESIGNED WITH ❤️ IN PIXELS</p>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
